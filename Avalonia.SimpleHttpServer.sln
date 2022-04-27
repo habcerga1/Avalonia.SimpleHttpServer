@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.SimpleHttpServer", "Avalonia.SimpleHttpServer\Avalonia.SimpleHttpServer.csproj", "{0A174877-2B55-489C-9CD2-C73855489B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHttp", "SimpleHttp\SimpleHttp.csproj", "{63C7B7BD-1327-40C0-8E42-16AFC4D35694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHttpTest", "SimpleHttpTest\SimpleHttpTest.csproj", "{6942F07F-5074-4AE6-80D1-BF9B9402A38D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A174877-2B55-489C-9CD2-C73855489B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A174877-2B55-489C-9CD2-C73855489B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A174877-2B55-489C-9CD2-C73855489B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A174877-2B55-489C-9CD2-C73855489B61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C7B7BD-1327-40C0-8E42-16AFC4D35694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C7B7BD-1327-40C0-8E42-16AFC4D35694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C7B7BD-1327-40C0-8E42-16AFC4D35694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C7B7BD-1327-40C0-8E42-16AFC4D35694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6942F07F-5074-4AE6-80D1-BF9B9402A38D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6942F07F-5074-4AE6-80D1-BF9B9402A38D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6942F07F-5074-4AE6-80D1-BF9B9402A38D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6942F07F-5074-4AE6-80D1-BF9B9402A38D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

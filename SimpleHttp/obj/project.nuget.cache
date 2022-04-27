@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YW2geMAW35O1ll+WaVLi6P3Xr3qP0o5x5mUVLjKsTCTJAN+rcEZrwgf+Lhs9MvLbclokzfXU7ffwRvXTWNeUPw==",
+  "success": true,
+  "projectFilePath": "/Users/habcerga1/RiderProjects/Avalonia.SimpleHttpServer/SimpleHttp/SimpleHttp.csproj",
+  "expectedPackageFiles": [
+    "/Users/habcerga1/.nuget/packages/microsoft.netcore.app.ref/6.0.0/microsoft.netcore.app.ref.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+/Users/habcerga1/RiderProjects/Avalonia.SimpleHttpServer/SimpleHttp/bin/Debug/net7.0/SimpleHttp.deps.json
+/Users/habcerga1/RiderProjects/Avalonia.SimpleHttpServer/SimpleHttp/bin/Debug/net7.0/SimpleHttp.dll
+/Users/habcerga1/RiderProjects/Avalonia.SimpleHttpServer/SimpleHttp/bin/Debug/net7.0/SimpleHttp.pdb
+/Users/habcerga1/RiderProjects/Avalonia.SimpleHttpServer/SimpleHttp/obj/Debug/net7.0/SimpleHttp.csproj.AssemblyReference.cache
+/Users/habcerga1/RiderProjects/Avalonia.SimpleHttpServer/SimpleHttp/obj/Debug/net7.0/SimpleHttp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/habcerga1/RiderProjects/Avalonia.SimpleHttpServer/SimpleHttp/obj/Debug/net7.0/SimpleHttp.AssemblyInfoInputs.cache
+/Users/habcerga1/RiderProjects/Avalonia.SimpleHttpServer/SimpleHttp/obj/Debug/net7.0/SimpleHttp.AssemblyInfo.cs
+/Users/habcerga1/RiderProjects/Avalonia.SimpleHttpServer/SimpleHttp/obj/Debug/net7.0/SimpleHttp.csproj.CoreCompileInputs.cache
+/Users/habcerga1/RiderProjects/Avalonia.SimpleHttpServer/SimpleHttp/obj/Debug/net7.0/SimpleHttp.dll
+/Users/habcerga1/RiderProjects/Avalonia.SimpleHttpServer/SimpleHttp/obj/Debug/net7.0/refint/SimpleHttp.dll
+/Users/habcerga1/RiderProjects/Avalonia.SimpleHttpServer/SimpleHttp/obj/Debug/net7.0/SimpleHttp.pdb
+/Users/habcerga1/RiderProjects/Avalonia.SimpleHttpServer/SimpleHttp/obj/Debug/net7.0/ref/SimpleHttp.dll
+/Users/habcerga1/RiderProjects/Avalonia.SimpleHttpServer/SimpleHttp/bin/Debug/net7.0/www/site1/index.html

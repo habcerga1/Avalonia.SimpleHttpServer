@@ -1,0 +1,22 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3b014693_002D6aee_002D41e8_002D8cf7_002De8d25794d3e7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ServerTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::6942F07F-5074-4AE6-80D1-BF9B9402A38D::net7.0::SimpleHttpTest.ServerTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=75a87ad7_002Dd4cb_002D4cbd_002Dae97_002D650df0acf296/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::6942F07F-5074-4AE6-80D1-BF9B9402A38D::net7.0::SimpleHttpTest.ServerSettingsTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::6942F07F-5074-4AE6-80D1-BF9B9402A38D::net7.0::SimpleHttpTest.ServerTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b515ef7d_002D6347_002D4348_002D9bc9_002Dfd224fccba6e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ServerTest #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::6942F07F-5074-4AE6-80D1-BF9B9402A38D::net6.0::SimpleHttpTest.ServerTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bc253f0d_002Dcc93_002D4056_002D879b_002D4996e6211a8f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ServerTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::6942F07F-5074-4AE6-80D1-BF9B9402A38D::net7.0::SimpleHttpTest.ServerTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
