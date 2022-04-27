@@ -15,4 +15,4 @@ sudo dotnet ~/Avalonia.SimpleHttpServer/Avalonia.SimpleHttpServer/bin/Release/ne
 
 For test connection use: 
 http://127.0.0.1:10100/index.html  -> www/site1/index.html  Server Settings[ Name: site1 , Port: 10100]
-http://127.0.0.1:10101/index.html  -> www/site2/index.html  Server Settings[ Name: site1 , Port: 10101]
+http://127.0.0.1:10101/index.html  -> www/site2/index.html  Server Settings[ Name: site2 , Port: 10101]
