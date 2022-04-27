@@ -3,6 +3,7 @@
 When are you adding new server:
 1. Add folder to ~/ProjectName/www/SITE_NAME
 2. The name of the new server should be the same with folder Example: SITE_NAME
+You can see default 2 folders inside the project
 
 You can run app from Rider or VisualStudio or from desktop (run as Administrator)
 
