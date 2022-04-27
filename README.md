@@ -13,6 +13,9 @@ dotnet ~/Avalonia.SimpleHttpServer/Avalonia.SimpleHttpServer/bin/Release/net6.0/
 On MacOs:
 sudo dotnet ~/Avalonia.SimpleHttpServer/Avalonia.SimpleHttpServer/bin/Release/net6.0/Avalonia.SimpleHttpServer.dll
 
-For test connection use: 
-http://127.0.0.1:10100/index.html  -> www/site1/index.html  Server Settings[ Name: site1 , Port: 10100]
-http://127.0.0.1:10101/index.html  -> www/site2/index.html  Server Settings[ Name: site2 , Port: 10101]
+For test connection you can use Chrome or Insomnia: 
+http://127.0.0.1:10100/index.html  
+-> www/site1/index.html  Server Settings[ Name: site1 , Port: 10100]
+
+http://127.0.0.1:10101/index.html  
+-> www/site2/index.html  Server Settings[ Name: site2 , Port: 10101]
