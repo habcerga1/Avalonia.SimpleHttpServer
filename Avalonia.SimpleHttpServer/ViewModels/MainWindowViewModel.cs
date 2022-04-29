@@ -31,7 +31,15 @@ namespace Avalonia.SimpleHttpServer.ViewModels
             RemoveBtn = new BS<int>(RemoveServer);
             StartBtn = new BS<ServerViewModel>(StartServer);
             SelectedServer = new BS<ServerViewModel>();
+            AddDefaultHttpServers();
         }
+
+        private void AddDefaultHttpServers()
+        {
+             Servers.Add(new ServerViewModel("site1","10100"));
+             Servers.Add(new ServerViewModel("site2","10101"));
+        }
+        
         
         /// <summary>
         /// Create and show Windows for add new server
