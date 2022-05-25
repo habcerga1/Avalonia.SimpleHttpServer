@@ -54,12 +54,13 @@ public class HttpServerV3 : Server
         return Task.CompletedTask;
     }
     
+    
     protected async Task HandleRequestAsync(Socket clientSocket)
     {
         byte[] buffer = new byte[10240]; // 10 kb, just in case
         int receivedBCount = clientSocket.Receive(buffer); // Получаем запрос
         string strReceived = Encoding.UTF8.GetString(buffer, 0, receivedBCount);
- 
+        //
         // Парсим запрос
         string httpMethod = strReceived.Substring(0, strReceived.IndexOf(" "));
  
@@ -106,4 +107,3 @@ public class HttpServerV3 : Server
         }
     }
 }
-

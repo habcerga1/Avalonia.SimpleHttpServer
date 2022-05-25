@@ -16,17 +16,17 @@
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="80"/>
+            <RowDefinition Height="40"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions> 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-            <Button Content="Add" Command="{Binding AddBtn.OnClickCommand}"/>
-            <Button Content="Start" Command="{Binding StartBtn.OnClickCommand}"/>
-            <Button Content="Stop" Command="{Binding StopBtn.OnClickCommand}"/>
-            <Button Content="Resume" Command="{Binding ResumeBtn.OnClickCommand}"/>
-            <Button Content="Delete" Command="{Binding RemoveBtn.OnClickCommand}"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Label  Foreground="#42474b" FontWeight="Heavy" FontSize="13" Content="{Binding Ticket.Value}" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+            <Button Content="Add" Command="{Binding AddBtn.OnClickCommand}" FontFamily="Helvetica" Background="Transparent" Margin="5,0,5,0"/>
+            <Button Content="Start" Command="{Binding StartBtn.OnClickCommand}"  FontFamily="Helvetica" Background="Transparent" Margin="5,0,5,0"/>
+            <Button Content="Stop" Command="{Binding StopBtn.OnClickCommand}"  FontFamily="Helvetica" Background="Transparent" Margin="5,0,5,0"/>
+            <Button Content="Delete" Command="{Binding RemoveBtn.OnClickCommand}"  FontFamily="Helvetica" Background="Transparent" Margin="5,0,5,0"/>
         </StackPanel>
-        <ListBox Classes="Selected" Grid.Row="1" Items="{Binding Servers}" Width="280" SelectedItem="{Binding SelectedServer.Value}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" >
+        <ListBox Classes="Selected" Grid.Row="1" Items="{Binding Servers}" Width="280" SelectedItem="{Binding SelectedServer.Value}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Background="Transparent" >
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal">

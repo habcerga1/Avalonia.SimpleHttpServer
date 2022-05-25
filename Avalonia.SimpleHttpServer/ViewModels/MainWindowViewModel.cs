@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 using Avalonia.SimpleHttpServer.Models;
 using Avalonia.SimpleHttpServer.Views;
 using SimpleHttp.Models;
@@ -21,7 +23,7 @@ namespace Avalonia.SimpleHttpServer.ViewModels
         
         public BS<ServerViewModel> SelectedServer { get; set; }     // Selected server in UI
         public ObservableCollection<ServerViewModel> Servers { get; set; } // List of servers which shows in UI
-
+        
         public MainWindowViewModel()
         {
             Servers = new ObservableCollection<ServerViewModel>();
@@ -124,4 +126,5 @@ namespace Avalonia.SimpleHttpServer.ViewModels
             }
         }
     }
+    
 }

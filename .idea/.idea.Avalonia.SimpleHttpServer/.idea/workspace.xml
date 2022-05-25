@@ -6,16 +6,17 @@
     <projectFile>SimpleHttpTest/SimpleHttpTest.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e82c0e9d-d9e3-426f-b255-b2e253ae683c" name="Changes" comment="Comment add">
+    <list default="true" id="e82c0e9d-d9e3-426f-b255-b2e253ae683c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalonia.SimpleHttpServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalonia.SimpleHttpServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.SimpleHttpServer/Avalonia.SimpleHttpServer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.SimpleHttpServer/Avalonia.SimpleHttpServer.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Avalonia.SimpleHttpServer/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.SimpleHttpServer/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avalonia.SimpleHttpServer/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Avalonia.SimpleHttpServer/Views/MainWindow.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleHttp/Models/HttpServerV3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleHttp/Models/HttpServerV3.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleHttp/bin/Debug/net6.0/SimpleHttp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleHttp/bin/Debug/net6.0/SimpleHttp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleHttp/bin/Debug/net6.0/SimpleHttp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleHttp/bin/Debug/net6.0/SimpleHttp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleHttp/obj/Debug/net6.0/SimpleHttp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleHttp/obj/Debug/net6.0/SimpleHttp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleHttp/obj/Debug/net6.0/SimpleHttp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleHttp/obj/Debug/net6.0/SimpleHttp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleHttp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleHttp/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleHttpTest/obj/Debug/net6.0/SimpleHttpTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleHttpTest/obj/Debug/net6.0/SimpleHttpTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleHttpTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleHttpTest/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -126,7 +127,11 @@
       <workItem from="1651043574410" duration="9427000" />
       <workItem from="1651078711186" duration="7692000" />
       <workItem from="1651086728857" duration="4034000" />
-      <workItem from="1651255355045" duration="304000" />
+      <workItem from="1651255355045" duration="1627000" />
+      <workItem from="1651257396522" duration="412000" />
+      <workItem from="1651257847833" duration="4906000" />
+      <workItem from="1651776100821" duration="871000" />
+      <workItem from="1652646435065" duration="468000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1651088012358</created>
@@ -142,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651088259328</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add 2 default http servers">
+      <created>1651255808979</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651255808979</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +179,8 @@
     <MESSAGE value="Initial" />
     <MESSAGE value="Publish commit" />
     <MESSAGE value="Comment add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comment add" />
+    <MESSAGE value="Add 2 default http servers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 2 default http servers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,81 +239,42 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SimpleHttp/Models/HttpServerV3.cs</url>
-          <line>104</line>
+          <line>105</line>
           <properties documentPath="$PROJECT_DIR$/SimpleHttp/Models/HttpServerV3.cs" initialLine="104" containingFunctionPresentation="method 'HandleRequestAsync'">
             <startOffsets>
-              <option value="3708" />
+              <option value="3722" />
             </startOffsets>
             <endOffsets>
-              <option value="3744" />
+              <option value="3758" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SimpleHttp/Models/HttpServerV3.cs</url>
-          <line>102</line>
+          <line>103</line>
           <properties documentPath="$PROJECT_DIR$/SimpleHttp/Models/HttpServerV3.cs" initialLine="102" containingFunctionPresentation="method 'HandleRequestAsync'">
             <startOffsets>
-              <option value="3593" />
+              <option value="3607" />
             </startOffsets>
             <endOffsets>
-              <option value="3674" />
+              <option value="3688" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="173" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/SimpleHttp/Models/HttpServerV3.cs</url>
-          <line>100</line>
+          <line>101</line>
           <properties documentPath="$PROJECT_DIR$/SimpleHttp/Models/HttpServerV3.cs" initialLine="100" containingFunctionPresentation="method 'HandleRequestAsync'">
             <startOffsets>
-              <option value="3416" />
+              <option value="3430" />
             </startOffsets>
             <endOffsets>
-              <option value="3504" />
+              <option value="3518" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="174" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SimpleHttp/Models/HttpServerV3.cs</url>
-          <line>66</line>
-          <properties documentPath="$PROJECT_DIR$/SimpleHttp/Models/HttpServerV3.cs" initialLine="66" containingFunctionPresentation="method 'HandleRequestAsync'">
-            <startOffsets>
-              <option value="1792" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1849" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="177" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SimpleHttp/Models/HttpServerV3.cs</url>
-          <line>70</line>
-          <properties documentPath="$PROJECT_DIR$/SimpleHttp/Models/HttpServerV3.cs" initialLine="70" containingFunctionPresentation="method 'HandleRequestAsync'">
-            <startOffsets>
-              <option value="1962" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2020" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="178" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SimpleHttp/Models/HttpServerV3.cs</url>
-          <line>69</line>
-          <properties documentPath="$PROJECT_DIR$/SimpleHttp/Models/HttpServerV3.cs" initialLine="69" containingFunctionPresentation="method 'HandleRequestAsync'">
-            <startOffsets>
-              <option value="1927" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1953" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="179" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
